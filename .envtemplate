@@ -1,0 +1,2 @@
+CONFIG_FILE=configs/config.yaml
+LOG_FILE=configs/logging.yaml
