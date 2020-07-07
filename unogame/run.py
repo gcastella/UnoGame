@@ -15,7 +15,7 @@ def cli():
 
 
 @cli.command("start")
-@click.argument("instance", )
+@click.argument("instance")
 def start_instance(instance):
     inst_config = config.instances[instance].starter
     logger.info(f"Starting {instance} from {inst_config.module}.")
