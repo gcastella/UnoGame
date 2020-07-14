@@ -1,2 +1,3 @@
 CONFIG_FILE=configs/config.yaml
+RULES_FILE=config/rules.yaml
 LOG_FILE=configs/logging.yaml

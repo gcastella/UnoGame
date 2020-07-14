@@ -1,0 +1,204 @@
+playable_threshold: 1                   # Cards with lower or equal distance are considered correlative.
+numeric_transformation: ""              # Function to apply to the number of the card. Ignored by now.
+draw_cards_turn: 1                      # Number of cards to draw at the beginning of the turn.
+cards:
+    Rzero:
+        symbol: "0"
+        color: "R"
+        img: "unogame/img/IMG-0.png"
+        quantity: 1
+    Rone:
+        symbol: "1"
+        color: "R"
+        img: "unogame/img/IMG-1.png"
+        quantity: 2
+    Rtwo:
+        symbol: "2"
+        color: "R"
+        img: "unogame/img/IMG-2.png"
+        quantity: 2
+    Rthree:
+        symbol: "3"
+        color: "R"
+        img: "unogame/img/IMG-3.png"
+        quantity: 2
+    Rfour:
+        symbol: "4"
+        color: "R"
+        img: "unogame/img/IMG-4.png"
+        quantity: 2
+    Rfive:
+        symbol: "5"
+        color: "R"
+        img: "unogame/img/IMG-5.png"
+        quantity: 2
+    Rsix:
+        symbol: "6"
+        color: "R"
+        img: "unogame/img/IMG-6.png"
+        quantity: 2
+    Rseven:
+        symbol: "7"
+        color: "R"
+        img: "unogame/img/IMG-7.png"
+        quantity: 2
+    Reight:
+        symbol: "8"
+        color: "R"
+        img: "unogame/img/IMG-8.png"
+        quantity: 2
+    Rnine:
+        symbol: "9"
+        color: "R"
+        img: "unogame/img/IMG-9.png"
+        quantity: 2
+    Yzero:
+        symbol: "0"
+        color: "Y"
+        img: "unogame/img/IMG-14.png"
+        quantity: 1
+    Yone:
+        symbol: "1"
+        color: "Y"
+        img: "unogame/img/IMG-15.png"
+        quantity: 2
+    Ytwo:
+        symbol: "2"
+        color: "Y"
+        img: "unogame/img/IMG-16.png"
+        quantity: 2
+    Ythree:
+        symbol: "3"
+        color: "Y"
+        img: "unogame/img/IMG-17.png"
+        quantity: 2
+    Yfour:
+        symbol: "4"
+        color: "Y"
+        img: "unogame/img/IMG-18.png"
+        quantity: 2
+    Yfive:
+        symbol: "5"
+        color: "Y"
+        img: "unogame/img/IMG-19.png"
+        quantity: 2
+    Ysix:
+        symbol: "6"
+        color: "Y"
+        img: "unogame/img/IMG-20.png"
+        quantity: 2
+    Yseven:
+        symbol: "7"
+        color: "Y"
+        img: "unogame/img/IMG-21.png"
+        quantity: 2
+    Yeight:
+        symbol: "8"
+        color: "Y"
+        img: "unogame/img/IMG-22.png"
+        quantity: 2
+    Ynine:
+        symbol: "9"
+        color: "Y"
+        img: "unogame/img/IMG-23.png"
+        quantity: 2
+    Gzero:
+        symbol: "0"
+        color: "G"
+        img: "unogame/img/IMG-28.png"
+        quantity: 1
+    Gone:
+        symbol: "1"
+        color: "G"
+        img: "unogame/img/IMG-29.png"
+        quantity: 2
+    Gtwo:
+        symbol: "2"
+        color: "G"
+        img: "unogame/img/IMG-30.png"
+        quantity: 2
+    Gthree:
+        symbol: "3"
+        color: "G"
+        img: "unogame/img/IMG-31.png"
+        quantity: 2
+    Gfour:
+        symbol: "4"
+        color: "G"
+        img: "unogame/img/IMG-32.png"
+        quantity: 2
+    Gfive:
+        symbol: "5"
+        color: "G"
+        img: "unogame/img/IMG-33.png"
+        quantity: 2
+    Gsix:
+        symbol: "6"
+        color: "G"
+        img: "unogame/img/IMG-34.png"
+        quantity: 2
+    Gseven:
+        symbol: "7"
+        color: "G"
+        img: "unogame/img/IMG-35.png"
+        quantity: 2
+    Geight:
+        symbol: "8"
+        color: "G"
+        img: "unogame/img/IMG-36.png"
+        quantity: 2
+    Gnine:
+        symbol: "9"
+        color: "G"
+        img: "unogame/img/IMG-37.png"
+        quantity: 2
+    Bzero:
+        symbol: "0"
+        color: "B"
+        img: "unogame/img/IMG-42.png"
+        quantity: 1
+    Bone:
+        symbol: "1"
+        color: "B"
+        img: "unogame/img/IMG-43.png"
+        quantity: 2
+    Btwo:
+        symbol: "2"
+        color: "B"
+        img: "unogame/img/IMG-44.png"
+        quantity: 2
+    Bthree:
+        symbol: "3"
+        color: "B"
+        img: "unogame/img/IMG-45.png"
+        quantity: 2
+    Bfour:
+        symbol: "4"
+        color: "B"
+        img: "unogame/img/IMG-46.png"
+        quantity: 2
+    Bfive:
+        symbol: "5"
+        color: "B"
+        img: "unogame/img/IMG-47.png"
+        quantity: 2
+    Bsix:
+        symbol: "6"
+        color: "B"
+        img: "unogame/img/IMG-48.png"
+        quantity: 2
+    Bseven:
+        symbol: "7"
+        color: "B"
+        img: "unogame/img/IMG-49.png"
+        quantity: 2
+    Beight:
+        symbol: "8"
+        color: "B"
+        img: "unogame/img/IMG-50.png"
+        quantity: 2
+    Bnine:
+        symbol: "9"
+        color: "B"
+        img: "unogame/img/IMG-51.png"
+        quantity: 2

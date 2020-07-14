@@ -1,31 +1,37 @@
 path:
     logs: logs
     config: config
-instances:
-    dummy_server:
-        starter:
-            module: unogame.instances.d_server
-            name: start_server
-            params:
-                ip: 192.168.56.1
-                port: 5555
-    dummy_client:
-        starter:
-            module: unogame.instances.d_client
-            name: start_client
-            params:
-                width: 500
-                height: 500
-                caption: client
-        player:
-            module: unogame.game.player
-            name: Player
-            params:
-                x: 50
-                y: 50
-                width: 100
-                height: 100
-                color: [0, 255, 0]
-game:
-    cards:
-    rules:
+network:
+    ip: &server_ip 192.168.56.1
+    port: &server_port 5555
+players:
+    player1:
+        name: player1
+        x: 0
+        y: 0
+        width: 100
+        height: 100
+        color: [0, 200, 50]
+        vel: 3
+    player2:
+        name: player2
+        x: 100
+        y: 100
+        width: 100
+        height: 100
+        color: [0, 50, 200]
+        vel: 3
+server:
+    module: unogame.instances
+    name: Server
+    params:
+        ip: *server_ip
+        port: *server_port
+client:
+    module: unogame.instances
+    name: Client
+    params:
+        bg_col: [255, 255, 255]
+        width: 500
+        height: 500
+        caption: client

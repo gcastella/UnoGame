@@ -1,12 +1,12 @@
 import importlib
 import os
+import typing
+import git
+import pandas as pd
 from datetime import date
 from datetime import datetime
-import pandas as pd
 from pathlib import Path
-import typing
-
-import git
+from PIL import Image
 
 
 def get_git_hash() -> str:
@@ -106,3 +106,18 @@ def print_row(df: pd.Series):
     """
     for value, index in zip(df, df.index):
         print(index, ": \n", value)
+
+
+def crop(input, height, width):
+    im = Image.open(input)
+    img_width, img_height = im.size
+    k = 0
+    for i in range(0, img_height, height):
+        for j in range(0, img_width, width):
+            box = (j, i, j + width, i + height)
+            a = im.crop(box)
+            try:
+                a.save("IMG-%s.png" % k)
+            except:
+                print("problems")
+            k += 1
