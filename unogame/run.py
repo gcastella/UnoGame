@@ -17,7 +17,9 @@ def cli():
 @cli.command("start")
 @click.argument("instance")
 def start_instance(instance):
-    inst_config = config.instances[instance].starter
-    logger.info(f"Starting {instance} from {inst_config.module}.")
-    starter = func_def(**inst_config)
-    starter()
+    # Call start method of the class given in config
+    inst_config = config[instance]
+    logger.info(f"Starting {instance} instance.")
+    logger.info(f"Using {inst_config.module}.{inst_config.name}")
+    instance = func_def(**inst_config)
+    instance().start()
